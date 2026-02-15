@@ -39,3 +39,14 @@
 - Update machine
 - Delete machine
 - Delete employé → machines supprimées automatiquement (CASCADE)
+
+## Amélioration demandée 
+- Paramètres de connexion externalisés dans `base.properties` (à la racine du projet)
+<img width="1920" height="1080" alt="Capture d’écran (253)" src="https://github.com/user-attachments/assets/1ac616e8-f3a3-4877-90e9-8f4264304601" />
+<img width="1920" height="1080" alt="Capture d’écran (253)" src="https://github.com/user-attachments/assets/5d78be9e-4530-4789-ac8a-4350a538b0d6" />
+
+- Chargement via `Properties.load(new FileInputStream("base.properties"))`
+- Utilisation de `jdbc.url`, `jdbc.username`, `jdbc.password` et `jdbc.driver`
+<img width="1920" height="1080" alt="Capture d’écran (254)" src="https://github.com/user-attachments/assets/d62b7e28-38e8-49ce-8b16-d5a2bdca94c5" />
+
+- Driver chargé avec `Class.forName(DRIVER)`
