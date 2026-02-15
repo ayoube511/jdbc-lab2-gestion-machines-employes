@@ -20,7 +20,7 @@ public class TestEmploye {
             e.setPoste("Superviseur");
             System.out.println("\nMise à jour OK ? " + svc.updateEmploye(e));
 
-            //System.out.println("Suppression OK ? " + svc.deleteEmploye(e));
+            System.out.println("Suppression OK ? " + svc.deleteEmploye(e));
 
         } catch (Exception ex) {
             ex.printStackTrace();
